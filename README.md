@@ -54,6 +54,7 @@ Test the C Program for the desired output.
 
 
 ## C Program to create new process using Linux API system calls fork() and exit()
+````
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -76,6 +77,7 @@ int main() {
     }
     return 0;
 }
+`````
 
 
 
@@ -94,6 +96,7 @@ int main() {
 
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
+`````
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -122,13 +125,17 @@ int main() {
     return 0;
 }
 
+`````
 
 
 
-##OUTPUT
 
 
-![image](https://github.com/vinodhini-17/Linux-Process-API-fork-wait-exec/assets/145742741/4015a823-7cae-4267-88f4-54cf7488ce2f)
+
+
+
+## OUTPUT
+![image](https://github.com/vinodhini-17/Linux-Process-API-fork-wait-exec/assets/145742741/3b29283b-7b85-4ebb-b8c5-578a271e6b71)
 
 
 # RESULT:
